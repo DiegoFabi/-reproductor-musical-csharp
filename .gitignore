@@ -3,6 +3,25 @@
 ##
 ## Get latest from https://github.com/github/gitignore/blob/main/VisualStudio.gitignore
 
+# Carpetas de compilación
+bin/
+obj/
+
+# Configuración del IDE
+.vs/
+*.user
+*.suo
+
+# Archivos temporales
+*.tmp
+*.log
+*.cache
+
+# Archivos innecesarios de NuGet
+packages/
+
+
+
 # User-specific files
 *.rsuser
 *.suo
